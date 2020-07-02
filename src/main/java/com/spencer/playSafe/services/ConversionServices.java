@@ -1,5 +1,8 @@
 package com.spencer.playSafe.services;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class ConversionServices {
 	public Double convertToCelcius(Double temperature) {
 		return temperature - 273.15;

@@ -7,5 +7,5 @@ import lombok.Data;
 @AllArgsConstructor
 public class TempResponse {
 	String status;
-	Double tempKelvin;
+	Double temperature;
 }
